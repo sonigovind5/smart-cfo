@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart CFO Subscription Estimate</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      color: #1f2937;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    .document {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .header {
+      background: #111827;
+      color: #ffffff;
+      padding: 32px 40px;
+    }
+
+    .header h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+    }
+
+    .header p {
+      margin: 0;
+      color: #d1d5db;
+      font-size: 15px;
+    }
+
+    .content {
+      padding: 36px 40px 44px;
+    }
+
+    .section {
+      margin-bottom: 32px;
+    }
+
+    .section h2 {
+      font-size: 18px;
+      margin: 0 0 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px 28px;
+    }
+
+    .field {
+      margin-bottom: 8px;
+    }
+
+    .label {
+      font-size: 12px;
+      color: #6b7280;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 4px;
+    }
+
+    .value {
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+    }
+
+    th,
+    td {
+      padding: 13px 12px;
+      border-bottom: 1px solid #e5e7eb;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    th {
+      background: #f9fafb;
+      color: #374151;
+    }
+
+    td:last-child,
+    th:last-child {
+      text-align: right;
+    }
+
+    .total-row td {
+      font-size: 17px;
+      font-weight: 700;
+      border-top: 2px solid #111827;
+      border-bottom: none;
+    }
+
+    .highlight {
+      background: #eef2ff;
+      border-left: 4px solid #4f46e5;
+      padding: 18px;
+      border-radius: 6px;
+      margin-top: 18px;
+    }
+
+    .disclaimer {
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      color: #9a3412;
+      padding: 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .footer {
+      margin-top: 34px;
+      padding-top: 20px;
+      border-top: 1px solid #e5e7eb;
+      color: #6b7280;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 640px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .content,
+      .header {
+        padding-left: 22px;
+        padding-right: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="document">
+    <div class="header">
+      <h1>Smart CFO Subscription Estimate</h1>
+      <p>Illustrative prototype pricing for pre-sales discussion</p>
+    </div>
+
+    <div class="content">
+      <div class="section">
+        <h2>Estimate Details</h2>
+
+        <div class="grid">
+          <div class="field">
+            <div class="label">Estimate ID</div>
+            <div class="value">SCFO-20260809-9PB6E</div>
+          </div>
+
+          <div class="field">
+            <div class="label">Issue Date</div>
+            <div class="value">09/08/2026</div>
+          </div>
+
+          <div class="field">
+            <div class="label">Valid Until</div>
+            <div class="value">23/08/2026</div>
+          </div>
+
+          <div class="field">
+            <div class="label">Pricing Status</div>
+            <div class="value">Illustrative prototype estimate</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Prospect Information</h2>
+
+        <div class="grid">
+          <div class="field">
+            <div class="label">Client Name</div>
+            <div class="value">Alex Chan</div>
+          </div>
+
+          <div class="field">
+            <div class="label">Company Name</div>
+            <div class="value">ABC Trading Limited</div>
+          </div>
+
+          <div class="field">
+            <div class="label">Email</div>
+            <div class="value">alex.chan@abctrading.test</div>
+          </div>
+
+          <div class="field">
+            <div class="label">Company Workspaces</div>
+            <div class="value">1</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Subscription Summary</h2>
+
+        <div class="grid">
+          <div class="field">
+            <div class="label">Selected Plan</div>
+            <div class="value">Smart CFO Control</div>
+          </div>
+
+          <div class="field">
+            <div class="label">Billing Cycle</div>
+            <div class="value">Annual</div>
+          </div>
+
+          <div class="field">
+            <div class="label">Currency</div>
+            <div class="value">HKD</div>
+          </div>
+
+          <div class="field">
+            <div class="label">Billing Period</div>
+            <div class="value">12 month(s)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Illustrative Pricing</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Description</th>
+              <th>Amount</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Monthly list price</td>
+              <td>HKD 999.00</td>
+            </tr>
+
+            <tr>
+              <td>Gross subscription amount</td>
+              <td>HKD 11,988.00</td>
+            </tr>
+
+            <tr>
+              <td>Discount (15%)</td>
+              <td>- HKD 1,798.20</td>
+            </tr>
+
+            <tr class="total-row">
+              <td>Final estimated amount</td>
+              <td>HKD 10,189.80</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="highlight">
+          <strong>Effective monthly cost:</strong>
+          HKD 849.15
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Recommended Next Step</h2>
+
+        <p>
+          The next step is a short discovery conversation to confirm the
+          organisation's finance processes, reporting priorities, current
+          tools, data availability, and implementation requirements.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Important Disclaimer</h2>
+
+        <div class="disclaimer">
+          This estimate covers one company workspace. It is not validated pricing or a binding commercial quotation. Multi-entity, custom integration, implementation, security, or bespoke requirements require human review.
+        </div>
+      </div>
+
+      <div class="footer">
+        Smart CFO is currently a concept-stage and prototype-stage
+        decision-support solution. This document is intended only for
+        demonstration and pre-sales discussion purposes and does not represent
+        a binding commercial offer, financial advice, tax advice, legal advice,
+        lending advice, or investment advice.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
